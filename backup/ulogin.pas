@@ -18,7 +18,6 @@ type
     edtName: TEdit;
     Edit2: TEdit;
     formLogin: TPanel;
-    lblCadastro: TLabel;
     LOGIN: TPanel;
     txtUser: TStaticText;
     txtLogin: TStaticText;
@@ -27,7 +26,6 @@ type
     procedure Edit2Change(Sender: TObject);
     procedure formLoginClick(Sender: TObject);
     procedure Label1Click(Sender: TObject);
-    procedure lblCadastroClick(Sender: TObject);
     procedure txtUserClick(Sender: TObject);
   private
 
@@ -47,11 +45,6 @@ implementation
 procedure TLOGIN.Label1Click(Sender: TObject);
 begin
  //commit
-end;
-
-procedure TLOGIN.lblCadastroClick(Sender: TObject);
-begin
-  //Chamar tela de cadastro
 end;
 
 procedure TLOGIN.txtUserClick(Sender: TObject);
