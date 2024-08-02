@@ -1,0 +1,32 @@
+object Miriam: TMiriam
+  Left = 260
+  Height = 240
+  Top = 162
+  Width = 320
+  Caption = 'Miriam'
+  ClientHeight = 240
+  ClientWidth = 320
+  OnCreate = FormCreate
+  ParentBiDiMode = False
+  LCLVersion = '3.4.0.0'
+  object Press: TButton
+    Left = 120
+    Height = 25
+    Top = 168
+    Width = 75
+    Caption = 'Press'
+    TabOrder = 0
+    OnClick = PressClick
+  end
+  object lblLogin: TLabeledEdit
+    Left = 48
+    Height = 23
+    Top = 33
+    Width = 80
+    EditLabel.Height = 15
+    EditLabel.Width = 80
+    EditLabel.Caption = 'lblLogin'
+    TabOrder = 1
+    TextHint = 'Usuário'
+  end
+end
